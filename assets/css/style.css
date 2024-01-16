@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    margin: auto;
+    
+}
+
+header{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.calc-body{
+    margin: auto;
+    width: 300px;
+    background-color: rgb(228, 228, 228);
+    padding: 24px;
+    display: grid;
+    border-radius: 1rem;
+}
+
+.calc-body #value-exb{
+    background-color:rgb(206, 206, 206);
+    height: 80px;
+    margin:10px;
+}
+.calc-body #value-exb p{
+    font-size: 1.2rem;
+    padding: 30px 10px;
+    text-align: right;
+}
+
+.calc-buttons{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+}
+.calc-buttons .calc-oper{
+    background-color: rgb(233, 181, 40);
+}
+.calc-buttons .calc-opt{
+    background-color: rgb(173, 173, 173);
+}
+
+.calc-buttons li{
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.calc-buttons li:hover{
+    background-color: rgb(211, 211, 211);
+}
+.calc-buttons .calc-opt:hover{
+    background-color: rgb(206, 206, 206);
+}
+
+.calc-buttons .calc-oper:hover{
+    background-color: rgb(180, 139, 25);
+}
